@@ -1,0 +1,110 @@
+# ---------------------------------
+# Python
+# ---------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual Environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# ---------------------------------
+# Jupyter Notebook
+# ---------------------------------
+.ipynb_checkpoints/
+*.nbconvert/
+*.nb.html
+
+# Notebook cache
+*.ruff_cache/
+
+# ---------------------------------
+# Data Files (Raw, Large, Temporary)
+# ---------------------------------
+data/raw/
+data/interim/
+data/tmp/
+*.csv
+*.xlsx
+*.xls
+*.tsv
+*.json
+*.xml
+*.parquet
+*.arrow
+
+# Optional: allow small sample datasets
+# Uncomment to allow:
+# !data/sample/*.csv
+
+# ---------------------------------
+# Model Artifacts
+# ---------------------------------
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+*.model
+*.weights
+
+# ---------------------------------
+# Logs & Temp Files
+# ---------------------------------
+*.log
+*.tmp
+*.bak
+
+# ---------------------------------
+# SQL / BI / Analytics
+# ---------------------------------
+*.pbix
+*.rpt
+*.db
+*.sqlite
+*.sqlproj
+
+# ---------------------------------
+# Cache and Testing
+# ---------------------------------
+.cache/
+coverage/
+htmlcov/
+
+# ---------------------------------
+# IDE / Editor Settings
+# ---------------------------------
+.vscode/
+.idea/
+*.swp
+
+# ---------------------------------
+# Operating System generated
+# ---------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------
+# Docker / venv / other config
+# ---------------------------------
+*.env
+envvars
+.envrc
+
+# ---------------------------------
+# Git Large File Storage Placeholder
+# ---------------------------------
+*.lfs
