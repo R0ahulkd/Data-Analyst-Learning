@@ -4,13 +4,10 @@ c = 0
 n = int(input("Enter a number : "))
 if n == 1:
     print(a)
-if n == 2:
+else:
     print(a)
     print(b)
-if n > 2:
-    print(a)
-    print(b)
-    for i in range (0,n-2):
+    for i in range (2,n):
         c = a + b
         a = b
         b = c
