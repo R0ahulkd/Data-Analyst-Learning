@@ -1,6 +1,6 @@
 a = {"Ironman","Hulk","Thor","Captain America"}
 b = {"Superman","Batman","Wonder-Woman"}
 c = {"Hulk","Thor","Spiderman"}
-# Prints difference (a-b) only prints value of a which not present in b
-x = a.difference(c)
-print(x)
+# Provides values of both set and skip common values of both sets
+
+print(a.symmetric_difference(c))
