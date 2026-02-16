@@ -1,0 +1,1 @@
+select EEID,Department from employee_data.employee_sample_data;
