@@ -1,0 +1,1 @@
+select Full_Name,Annual_Salary,Job_Title,City from employee_data.employee_sample_data where Job_Title = "Sr. Manger" and City = "Seattle";
