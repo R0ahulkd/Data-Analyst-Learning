@@ -8,4 +8,4 @@ END &&
 DELIMITER ;
 
 call classicmodels.get_credit(@m);
-select @M #@m is just a variable name
+select @M #@m is just a variable name (always use @ in starting)
