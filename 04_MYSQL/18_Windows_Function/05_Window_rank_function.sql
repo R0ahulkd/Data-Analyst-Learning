@@ -1,2 +1,3 @@
 select FirstName,Occupation,EducationLevel,TotalChildren, rank()
 over (partition by Occupation order by EducationLevel) from customers_data;
+#The RANK() function assigns a rank to each row within a partition of a result set. The rank of a row is one plus the number of ranks that come before it. If two or more rows have the same rank, they will receive the same rank, and the next rank(s) will be skipped. In this query, we are partitioning the data by Occupation and ordering it by EducationLevel to assign ranks accordingly.
