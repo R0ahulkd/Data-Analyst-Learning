@@ -4,7 +4,6 @@ This repository documents my structured learning path to become a Data Scientist
 It includes notes, practice code, assignments, projects, and tools used in the industry.
 
 ---
-
 🎯 Objective
 
 To gain hands-on skills in Data Science, Data Analytics, and Business Intelligence and become job-ready in 2026–2027.
