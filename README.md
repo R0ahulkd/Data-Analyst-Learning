@@ -2,7 +2,6 @@ Data Science Learning Journey — 2026
 
 This repository documents my structured learning path to become a Data Scientist / Data Analyst.  
 It includes notes, practice code, assignments, projects, and tools used in the industry.
-
 ---
 🎯 Objective
 
